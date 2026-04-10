@@ -1,13 +1,6 @@
-venv/
-frontend/
-.next/
-node_modules/
-.git/
-.gitignore
-db.sqlite3
-media/
-__pycache__/
+venv
+__pycache__
 *.pyc
 .env
-Dockerfile
-.dockerignore
+.git
+.gitignore
