@@ -1,8 +1,6 @@
 import axios from 'axios';
 
-export const API_URL = typeof window !== 'undefined' && window.location.hostname === 'localhost' 
-  ? "http://localhost:8000" 
-  : "https://findurpg-backend-888584325804.asia-south1.run.app";
+export const API_URL =  "https://findurpg-backend-888584325804.asia-south1.run.app";
 
 const api = axios.create({
   baseURL: API_URL,
